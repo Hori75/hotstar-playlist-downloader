@@ -1,6 +1,6 @@
 # HotStar Playlist Downloader
 
-Download HotStar playlist and seasons.
+Download HotStar playlists and seasons.
 
 ### Usage
 ```shell
@@ -12,3 +12,5 @@ Download HotStar playlist and seasons.
 ````shell
 pip install -r requirements.txt
 ````
+
+**Note**: I wrote this to download only one TV show and didn't tested others. There will be bugs in many cases. If you find one, please report in issue section.
