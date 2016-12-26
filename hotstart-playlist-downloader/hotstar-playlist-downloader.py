@@ -19,7 +19,7 @@ def get_hotstar_links(playlist_id):
     json_obj = request.json()
     if json_obj['resultCode'] != 'OK':
         print('Error fetching results. Aborting')
-        return None
+        sys.exit(1)
     return ['http://www.hotstar.com/%s' % x['contentId']
             for x in json_obj['resultObj']['response']['docs']]
 
