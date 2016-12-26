@@ -1,7 +1,6 @@
 # HotStar Playlist Downloader
 
-Downloading HotStar playlists is easy as ABC.
-
+Download HotStar playlist and seasons.
 
 ### Usage
 ```shell
