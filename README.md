@@ -1,11 +1,11 @@
 # HotStar Playlist Downloader
 
-Downloading HotStart playlists is easy as ABC.
+Downloading HotStar playlists is easy as ABC.
 
 
 ### Usage
 ```shell
-./hotstart-playlist-downloader.py <playlist URL>
+./hotstar-playlist-downloader.py <playlist URL>
 ```
 
 ### Dependencies
