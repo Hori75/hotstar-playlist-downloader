@@ -5,7 +5,7 @@ Downloading HotStar playlists is easy as ABC.
 
 ### Usage
 ```shell
-./hotstar-playlist-downloader.py <playlist URL>
+./hotstar-playlist-downloader.py <playlist or season URL>
 ```
 
 ### Dependencies
