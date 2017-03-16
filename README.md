@@ -2,6 +2,8 @@
 
 Download HotStar playlists and seasons.
 
+[![Code Climate](https://codeclimate.com/github/singhpratyush/hotstar-playlist-downloader/badges/gpa.svg)](https://codeclimate.com/github/singhpratyush/hotstar-playlist-downloader)
+
 ### Usage
 ```shell
 ./hotstar-playlist-downloader.py <playlist or season URL>
