@@ -4,8 +4,11 @@ import re
 import requests
 import subprocess
 
-re_link_pl = re.compile(r'.*?hotstar\.com/tv/(?!/).*/[0-9].*/episodes/([0-9].*)/[0-9].*')
-re_link_se = re.compile(r'.*?hotstar.com/tv/(?!/).*?/([0-9].*)/seasons/season-([0-9])')
+
+re_link_pl = re.compile(
+    r'.*?hotstar\.com/tv/(?!/).*/[0-9].*/episodes/([0-9].*)/[0-9].*')
+re_link_se = re.compile(
+    r'.*?hotstar.com/tv/(?!/).*?/([0-9].*)/seasons/season-([0-9])')
 
 
 def get_playlist_links(playlist_id):
