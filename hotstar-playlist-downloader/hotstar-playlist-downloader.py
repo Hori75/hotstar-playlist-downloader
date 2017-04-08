@@ -61,5 +61,6 @@ def main():
         sys.exit(1)
     download_many(links)
 
+
 if __name__ == '__main__':
     main()
