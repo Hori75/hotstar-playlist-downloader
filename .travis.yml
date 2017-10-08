@@ -1,0 +1,7 @@
+language : python
+
+install :
+  - pip install -r requirements.txt
+
+script :
+  - ./hotstar-playlist-downloader.py http://www.hotstar.com/tv/mahabharat/435/seasons/season-1
